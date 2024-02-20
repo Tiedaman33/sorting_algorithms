@@ -10,7 +10,7 @@ void quick_sort(int *array, size_t size);
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
-void swap_ints(int *a int *b)
+void swap_ints(int *a, int *b)
 {
 	int tmp;
 
@@ -65,7 +65,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
  *
  * Description: Uses the Lomuto partition scheme.
  */
-void lomuto_sort(int *array, size_t, int left, int right)
+void lomuto_sort(int *array, size_t size, int left, int right)
 {
 	int part;
 
